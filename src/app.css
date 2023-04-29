@@ -1,0 +1,147 @@
+html {
+    /* dark */
+    --brand-dark: var(--orange-3);
+    --text-1-dark: var(--gray-3);
+    --text-2-dark: var(--gray-5);
+    --surface-1-dark: var(--gray-12);
+    --surface-2-dark: var(--gray-11);
+    --surface-3-dark: var(--gray-10);
+    --surface-4-dark: var(--gray-9);
+    --background-dark: var(--gray-10);
+    --border-dark: var(--gray-9);
+
+    /* light */
+    --brand-light: var(--orange-10);
+    --text-1-light: var(--gray-8);
+    --text-2-light: var(--gray-7);
+    --surface-1-light: var(--gray-0);
+    --surface-2-light: var(--gray-1);
+    --surface-3-light: var(--gray-2);
+    --surface-4-light: var(--gray-3);
+    --background-light: none;
+    --border-light: var(--gray-4);
+}
+
+:root {
+    color-scheme: dark;
+
+    --brand: var(--brand-dark);
+    --text-1: var(--text-1-dark);
+    --text-2: var(--text-2-dark);
+    --surface-1: var(--surface-1-dark);
+    --surface-2: var(--surface-2-dark);
+    --surface-3: var(--surface-3-dark);
+    --surface-4: var(--surface-4-dark);
+    --background: var(--background-dark);
+    --border: var(--border-dark);
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color-scheme: light;
+
+        --brand: var(--brand-light);
+        --text-1: var(--text-1-light);
+        --text-2: var(--text-2-light);
+        --surface-1: var(--surface-1-light);
+        --surface-2: var(--surface-2-light);
+        --surface-3: var(--surface-3-light);
+        --surface-4: var(--surface-4-light);
+        --background: var(--background-light);
+        --border: var(--border-light);
+    }
+}
+
+[color-scheme='dark'] {
+    color-scheme: dark;
+
+    --brand: var(--brand-dark);
+    --text-1: var(--text-1-dark);
+    --text-2: var(--text-2-dark);
+    --surface-1: var(--surface-1-dark);
+    --surface-2: var(--surface-2-dark);
+    --surface-3: var(--surface-3-dark);
+    --surface-4: var(--surface-4-dark);
+    --background: var(--background-dark);
+    --border: var(--border-dark);
+}
+
+[color-scheme='light'] {
+    color-scheme: light;
+
+    --brand: var(--brand-light);
+    --text-1: var(--text-1-light);
+    --text-2: var(--text-2-light);
+    --surface-1: var(--surface-1-light);
+    --surface-2: var(--surface-2-light);
+    --surface-3: var(--surface-3-light);
+    --surface-4: var(--surface-4-light);
+    --background: var(--background-light);
+    --border: var(--border-light);
+}
+
+html {
+    color: var(--text-1);
+    accent-color: var(--link);
+    background: var(--background);
+}
+
+body {
+    padding: var(--size-6);
+}
+
+header {
+    padding: var(--size-4);
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    border-bottom: 2px solid var(--border);
+    border-top: 2px solid var(--border);
+}
+
+#posts {
+    display: flex;
+    align-items: center;
+    gap: var(--size-2);
+    flex-direction: column;
+}
+
+#posts .post {
+    box-sizing: border-box;
+    min-width: 48rem;
+    max-width: 100vw;
+    border: 2px solid var(--border);
+    border-radius: var(--size-2);
+    padding: var(--size-2);
+    background-color: var(--surface-1);
+    list-style: none;
+    animation: var(--animation-slide-in-right) forwards;
+}
+
+#posts .post .title {
+    font-size: var(--size-8);
+}
+
+#posts .post .date {
+    font-size: var(--size-3);
+    color: var(--text-2);
+    margin-bottom: var(--size-2);
+}
+
+#posts .post .description {
+    font-size: var(--size-4);
+}
+
+img {
+    border-radius: var(--radius-3);
+}
+
+footer {
+    padding: var(--size-2);
+}
