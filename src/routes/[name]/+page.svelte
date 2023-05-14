@@ -31,7 +31,6 @@
 	article {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
 	}
 
 	h1 {
