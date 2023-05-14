@@ -13,7 +13,9 @@
 <style>
 	.transition {
 		padding: var(--size-4);
-		min-height: 100dvh;
 		min-height: 100vh;
+		min-height: 100dvh;
+		display: flex;
+		justify-content: center;
 	}
 </style>

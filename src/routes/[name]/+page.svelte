@@ -29,8 +29,9 @@
 
 <style>
 	article {
-		max-inline-size: var(--size-content-3);
-		margin-inline: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 
 	h1 {
