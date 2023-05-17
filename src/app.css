@@ -138,6 +138,30 @@ main {
     font-size: var(--size-4);
 }
 
+p {
+    line-height: 1.75!important;
+    margin-bottom: var(--size-2);
+}
+
+p strong {
+    margin-top: var(--size-3) !important;
+    margin-bottom: var(--size-1) !important;
+}
+
+h2::before, h3::before, h4::before, h5::before, h6::before {
+    content: '# ';
+}
+
+h2, h3, h4, h5, h6 {
+    margin: var(--size-3) 0 var(--size-1) 0;
+}
+
+pre {
+    padding: var(--size-3);
+    border-radius: var(--size-3);
+    margin-bottom: var(--size-1);
+}
+
 img {
     border-radius: var(--radius-3);
 }

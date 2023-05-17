@@ -18,7 +18,7 @@
 
 	<div class="tags">
 		{#each data.meta.categories as category}
-			<span class="surface-4">&num;{category}</span>
+			<span>&num;{category}</span>
 		{/each}
 	</div>
 
@@ -45,11 +45,12 @@
 	.tags {
 		display: flex;
 		gap: var(--size-3);
-		margin-top: var(--size-7);
+		margin-bottom: var(--size-2);
 	}
 
 	.tags > * {
 		padding: var(--size-2) var(--size-3);
 		border-radius: var(--radius-round);
+		background-color: var(--surface-2);
 	}
 </style>

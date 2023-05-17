@@ -15,7 +15,7 @@ const mdsvexOptions = {
 	},
 	highlight: {
 		highlighter: async (code, lang = 'text') => {
-			const highlighter = await shiki.getHighlighter({ theme: 'poimandres' })
+			const highlighter = await shiki.getHighlighter({ theme: 'github-dark' })
 			const html = escapeSvelte(highlighter.codeToHtml(code, { lang }))
 			return `{@html \`${html}\` }`
 		}
