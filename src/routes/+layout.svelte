@@ -14,7 +14,7 @@
 <div class="layout">
 	<Header />
 
-	<main>
+	<main class="block mx-auto">
 		<PageTransition url={data.url}>
 			<slot />
 		</PageTransition>

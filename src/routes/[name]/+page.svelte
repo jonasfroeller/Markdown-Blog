@@ -29,11 +29,15 @@
 
 <style>
 	article {
+		padding: 1rem;
+		width: max-content;
+		max-width: 95vw;
 		display: flex;
 		flex-direction: column;
 	}
 
 	h1 {
+		word-break: break-all;
 		text-transform: capitalize;
 	}
 
