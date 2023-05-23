@@ -173,7 +173,7 @@ code {
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto;
-    white-space: normal!important; 
+    white-space: pre-wrap!important; 
 }
 
 img {
