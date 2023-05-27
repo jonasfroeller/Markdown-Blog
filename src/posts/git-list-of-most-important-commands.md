@@ -8,7 +8,7 @@ published: true
 ---
 
 optional parameters: <span style="color: blue;">blue</span>  
-most important commands: <span style="color: green;"><span style="color: green;">!</span></span>
+most important commands: <span style="color: green;">!</span>
 
 ## CREATE REPOSITORY
 
