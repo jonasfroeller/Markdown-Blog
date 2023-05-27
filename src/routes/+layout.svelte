@@ -3,6 +3,8 @@
 	import Header from '$lib/components/Header.svelte';
 	import PageTransition from '$lib/components/Transition.svelte';
 
+	import { theme } from '$lib/scripts/theme';
+
 	import 'open-props/style';
 	import 'open-props/normalize';
 	import 'open-props/buttons';
@@ -10,6 +12,10 @@
 
 	export let data;
 </script>
+
+<svelte:head>
+	<link rel="icon" href={$theme == 'dark' ? '/favicon-dark.png' : '/favicon-light.png'} />
+</svelte:head>
 
 <div class="layout">
 	<Header />
