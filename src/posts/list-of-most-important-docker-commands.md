@@ -56,7 +56,7 @@ published: true
 - `docker container inspect <container_id>`: Displays detailed information about a container.
 - `docker logs <container_id>`: Displays the logs of a container.
 
-### Host <=> Container
+### Host to Container
 
 - `docker cp <container_id>:<container_path> <host_path>`: Copies files between the host and container.
 - `docker exec <container_id> <command>`: Executes a command within a running container.
