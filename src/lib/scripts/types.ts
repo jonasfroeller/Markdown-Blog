@@ -1,4 +1,4 @@
-export type Categories = 'coding' | 'software' | 'hosting' | 'vcs' | 'other';
+export type Categories = 'coding' | 'software' | 'hosting' | 'vcs' | 'virtualization' | 'other';
 
 export type Post = {
 	title: string;
