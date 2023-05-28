@@ -126,15 +126,15 @@ networks:
 
 ### Dockerfile (building custom image)
 
-`FROM`: Defines the base image on which the new image is built.
-`RUN`: Executes a command to install packages or run commands inside the container.
-`COPY` or `ADD`: Copies files or directories from the host into the container.
-`WORKDIR`: Sets the working directory for subsequent instructions in the Dockerfile.
-`EXPOSE`: Declares the port on which the container will listen for external communication.
-`CMD`: Specifies the default command to be executed when starting a container.
-`ENTRYPOINT`: Defines the executable command that is always executed when the container starts.
-`ENV`: Sets environment variables within the container.
-`VOLUME`: Declares one or more volumes to be used by the container.
+`FROM`: Defines the base image on which the new image is built.  
+`RUN`: Executes a command to install packages or run commands inside the container.  
+`COPY` or `ADD`: Copies files or directories from the host into the container.  
+`WORKDIR`: Sets the working directory for subsequent instructions in the Dockerfile.  
+`EXPOSE`: Declares the port on which the container will listen for external communication.  
+`CMD`: Specifies the default command to be executed when starting a container.  
+`ENTRYPOINT`: Defines the executable command that is always executed when the container starts.  
+`ENV`: Sets environment variables within the container.  
+`VOLUME`: Declares one or more volumes to be used by the container.  
 `LABEL`: Adds metadata to an image.
 
 **Example of a 'Dockerfile' file:**
