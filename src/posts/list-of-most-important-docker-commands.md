@@ -139,7 +139,7 @@ networks:
 
 **Example of a 'Dockerfile' file:**
 
-```Dockerfile
+```docker
 # Define the base image
 FROM python:3.9
 
