@@ -29,6 +29,9 @@ most important commands: **!**
 **!** ``git reset`` <span style="color: blue;">HEAD &lsaquo;file&rsaquo;</span> **=>** remove from stage  
 ``git reset --hard (deletes commit and following commits) || --soft (only deletes specified commit) <hash>`` **=>** delete commit
 
+`git tag -a <Tag-Name> <Commit-ID>` **=>** add tag to commit
+`git push origin --tags` **=>** push tags to remote
+
 ``git stash save || push`` <span style="color: blue;">&lsaquo;message&rsaquo;</span> **=>** save uncommitted changes in working directory  
 ``git stash show <stash>`` **=>** show changes in workdir of specific stash  
 ``git stash apply <stash>`` **=>** apply stash to current workdir  
