@@ -27,6 +27,7 @@ most important commands: **!**
 **!** ``git push`` **=>** add to binded remote repo
 
 **!** ``git reset`` <span style="color: blue;">HEAD &lsaquo;file&rsaquo;</span> **=>** remove from stage  
+``git reset --mixed`` **=>** clear stage  
 ``git reset --hard (deletes commit and following commits) || --soft (only deletes specified commit) <hash>`` **=>** delete commit
 
 `git tag -a <Tag-Name> <Commit-ID>` **=>** add tag to commit
