@@ -18,7 +18,7 @@ published: true
 | Toggle Sidebar               | <kbd>CTRL + B</kbd>          |
 | View Current File In Full Screen | <kbd>CTRL + K</kbd> + <kbd>Z</kbd>          |
 | Open Terminal                | <kbd>CTRL + Ö</kbd>          |
-| Navigate Tabs                | <kbd>CTRL + &lt;TAB-INDEX&gt;</kbd> OR <kbd>CTRL + SHIFT + TAB</kbd>         |
+| Navigate Tabs                | <kbd>CTRL + [TAB-INDEX]</kbd> OR <kbd>CTRL + SHIFT + TAB</kbd>         |
 | Open Settings                | <kbd>CTRL + ,</kbd>         |
 | **Code Suggestion:**                    |                       |
 | Trigger IntelliSense         | <kbd>CTRL + SPACE</kbd>      |
