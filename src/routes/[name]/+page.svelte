@@ -31,13 +31,12 @@
 	article {
 		padding: 1rem;
 		width: max-content;
-		max-width: 95vw;
 		display: flex;
 		flex-direction: column;
 	}
 
 	h1 {
-		word-break: break-all;
+		word-break: break-word;
 		text-transform: capitalize;
 	}
 

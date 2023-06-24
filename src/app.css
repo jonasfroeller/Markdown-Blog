@@ -113,8 +113,9 @@ main {
 }
 
 .post {
+    margin: 0 1.25rem;
     width: 48rem;
-    max-width: 95vw;
+    max-width: calc(95vw - 2.5rem);
     box-sizing: border-box;
     border: 2px solid var(--border);
     border-radius: var(--size-2);
@@ -126,6 +127,7 @@ main {
 
 #posts .post .title {
     font-size: var(--size-8);
+    word-break: break-word;
 }
 
 #posts .post .date {
