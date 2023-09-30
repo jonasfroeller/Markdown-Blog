@@ -87,38 +87,6 @@ If you just want to delete some files and folders in your project before sending
 
 **Example for Windows:**
 
-```shell
-#!/bin/bash
-
-folder="root (.)"
-
-echo deleting .pem and .env files
-del /s /q ".\*.pem"
-del /s /q ".\.env"
-
-folder="frontend"
-echo folder=$folder
-
-echo deleting .vercel
-rm -rf "$folder/.vercel"
-
-echo deleting .svelte-kit
-rm -rf "$folder/.svelte-kit"
-
-echo deleting node_modules
-rm -rf "$folder/node_modules"
-
-folder="backend"
-echo folder=$folder
-
-echo deleting vendor
-rm -rf "$folder/vendor"
-
-read -p "Press Enter to exit..."
-```
-
-**Example for Linux:**
-
 ```batch
 @echo off
 
@@ -149,6 +117,38 @@ rd /s /q "%folder%\vendor"
 pause
 ```
 
+**Example for Linux:**
+
+```shell
+#!/bin/bash
+
+folder="root (.)"
+
+echo deleting .pem and .env files
+del /s /q ".\*.pem"
+del /s /q ".\.env"
+
+folder="frontend"
+echo folder=$folder
+
+echo deleting .vercel
+rm -rf "$folder/.vercel"
+
+echo deleting .svelte-kit
+rm -rf "$folder/.svelte-kit"
+
+echo deleting node_modules
+rm -rf "$folder/node_modules"
+
+folder="backend"
+echo folder=$folder
+
+echo deleting vendor
+rm -rf "$folder/vendor"
+
+read -p "Press Enter to exit..."
+```
+
 If you forgot to delete a lot of `node_modules` folders on your system you could use `npx npkill` to view them all and delete them or write a script to do it.  
 
 **Example for Windows:**
@@ -177,6 +177,8 @@ read -p "Press Enter to exit..."
 ```
 
 ### deleting temporary files on your system
+
+**Example for Windows:**
 
 ```batch
 @echo off
